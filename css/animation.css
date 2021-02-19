@@ -1,0 +1,16 @@
+@keyframes photo1 {
+	0% {transform:rotate(15deg); background-color: #ffe6e6;}
+	25% {transform:rotate(20deg); background-color: #e6e6ff;}
+	50% {transform:rotate(25deg); background-color: #ffb3cc;}
+	75% {transform:rotate(30deg); background-color: #f7ffe6;}
+	100% {transform:rotate(0deg); background-color: #fff2e6;}
+}
+
+@keyframes background {
+	0%  {background-color: #fff2e6;}
+	25%  {background-color: #ffe5cc;}
+	50%  {background-color: #ffca99;}
+	75%  {background-color: #ffa34d;}
+	100%  {background-color: #ff9633;}
+
+

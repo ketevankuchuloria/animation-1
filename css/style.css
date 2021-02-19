@@ -1,0 +1,165 @@
+.animation {
+	width: 800px;
+	height: 700px;
+	margin:0 auto;
+	background-color: black;
+	border-style: double;
+	box-shadow: 5px 10px black ;
+	animation: background 10s infinite;
+	position: relative;
+}
+
+
+
+
+.photo1 {
+	width: 300px;
+	height: 300px;
+	background-color: #cc9900;
+	float: right;
+	position:relative;
+	margin-right: 50px;
+	margin-top: 20px;
+	border-style: solid;
+	box-shadow: 5px 10px white;
+	animation: photo1 10s infinite;
+}
+
+.photo1-img {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 15%;
+	top: 10%;
+	}
+
+.photo2 {
+	width: 300px;
+	height: 300px;
+	background-color: #cc9900;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 20px;
+	float: left;
+	border-style: solid;
+	box-shadow: 5px 10px white;
+	animation: photo1 10s infinite;
+
+}
+
+
+.photo2-img {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 15%;
+	top: 10%;
+	}
+
+
+
+.photo3 {
+	width: 300px;
+	height: 300px;
+	background-color:  #cc9900;
+	float: left;
+	margin-top: 50px;
+	position:relative;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	border-style: solid;
+	box-shadow: 5px 10px white;
+	animation: photo1 10s infinite;
+}
+
+.photo3-img {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 15%;
+	top: 10%;
+	}
+
+.photo4 {
+	width: 300px;
+	height: 300px;
+	background-color: #cc9900;
+	float: right;
+	margin-top: 50px;
+	position: relative;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	border-style: solid;
+	box-shadow: 5px 10px white;
+	animation: photo1 10s infinite;
+
+}
+
+.photo4-img {
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 15%;
+	top: 10%;
+	}
+
+
+
+.clear {
+	clear: both;
+}
+
+
+.vogue-div {
+	width: 900px;
+	height: 300px;
+	position: relative;
+	margin:0 auto;
+}
+
+.vogue {
+	background-image: url(../vogue.png);
+	background-size: 300px 100px;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	animation: vogue 10s infinite;
+}
+
+@keyframes vogue {
+	from {left:0px;}
+	to {left:600px;}
+}
+
+@keyframes vogue2 {
+	from {right:0px;}
+	to {right:600px;}
+}
+
+
+.vogue2 {
+	background-image: url(../vogue.png);
+	background-size: 300px 100px;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	animation: vogue 5s infinite;	
+}
+
+.vogue3 {
+	background-image: url(../vogue.png);
+	background-size: 300px 100px;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	animation: vogue2 10s infinite;	
+}
+
+.vogue4 {
+	background-image: url(../vogue.png);
+	background-size: 300px 100px;
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	animation: vogue2 5s infinite;	
+}
